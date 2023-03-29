@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "iu.png",
+    "link": '../images/iu.png',
+    "text": "Faith in Philanthropy"
+  },
+  "text": {
+    "more": "This network consists of 74 Funder Groups and their connections to more than 5000 member funders. Nodes that represent funder groups vary in size according to the proportion of faith-based organizations in their total membership.",
+    "intro": "Hover over an object in the network to view the Funder Group or Funder that it represents. Colored nodes represent Funder Groups, and grey nodes represent Funders. An opaque blue line connecting a Funder Group and Funder indicates that the Funder is a faith-based organization, a faint white line indicates that the Funder is secular.",
+    "title": "Universe of Funder Group and Member Connections"
+  },
+  "legend": {
+    "edgeLabel": "Members (Funders) ",
+    "colorLabel": "Funder Group",
+    "nodeLabel": "Funder Groups"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Label"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
