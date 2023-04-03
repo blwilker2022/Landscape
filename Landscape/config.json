@@ -13,9 +13,8 @@
     "title": "Universe of Funder Group and Member Connections"
   },
   "legend": {
-    "edgeLabel": "Members (Funders) ",
     "colorLabel": "Funder Group",
-    "nodeLabel": "Funder Groups"
+    "nodeLabel": "Member"
   },
   "features": {
     "search": true,
